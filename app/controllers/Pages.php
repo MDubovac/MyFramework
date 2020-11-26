@@ -1,7 +1,9 @@
 <?php 
 
-class Pages{
-    public function __construct(){
-        echo "Pages Controller Loaded";
+class Pages extends Controller{
+    // Index Method
+    public function index(){
+        $this->view('hello');
     }
+
 }
