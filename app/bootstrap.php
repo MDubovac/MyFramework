@@ -1,5 +1,8 @@
 <?php 
-/* Require all the Libraries*/
-require_once "libraries/Core.php"; 
-require_once "libraries/Controller.php"; 
-require_once "libraries/Database.php"; 
+/* Require the config file */ 
+require_once "../app/config/config.php";
+
+/* Autoload Libraries */
+spl_autoload_register(function($className){
+    require_once "../app/libraries/" . $className . ".php";
+});
