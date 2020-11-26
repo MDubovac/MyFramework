@@ -1,0 +1,9 @@
+/*
+* This is the main css file of the application
+* This file is included in header.php
+* You can use this file in every view, in which you include header.php
+*/
+
+body{
+    background-color: aqua;
+}
