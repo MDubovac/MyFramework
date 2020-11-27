@@ -2,6 +2,10 @@
 
 class Pages extends Controller{
     
+    public function __construct(){
+        $this->postModel = $this->model('Post');
+    }
+
     // Index Method
     public function index(){
         $this->view('pages/index');
