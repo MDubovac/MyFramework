@@ -1,11 +1,11 @@
 <?php
 /* Configuration Data */
-define('APP_ROOT', dirname(dirname(__FILE__))); // Root folder name
-define('APP_URL', "https://localhost/mvcapp1"); // Application URL
-define('APP_NAME', "MvcApp1");                  // Application Name
+define('APP_ROOT', dirname(dirname(__FILE__)));     // Root folder name
+define('APP_URL', "_APP_URL_");                     // Application URL
+define('APP_NAME', "_APP_NAME_");                   // Application Name
 
 /* Database Parameters */
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'mvcapp1');
+define('DB_HOST', '_HOST_');
+define('DB_USER', '_USER_');
+define('DB_PASS', '_PASS_');
+define('DB_NAME', '_DBNAME_');
